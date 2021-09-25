@@ -23,4 +23,4 @@ jobs:
         uses: ./
         with:
           milliseconds: 1000
-      - run: echo ${{steps.loc.outputs.time}}
+      - run: echo "${{steps.loc.outputs.time}}"
